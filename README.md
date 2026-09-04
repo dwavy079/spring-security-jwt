@@ -1,8 +1,9 @@
-# Spring Security JWT
-
-A JWT authentication and authorisation API built with Spring Boot, following the
-Amigoscode Spring Security tutorial — updated to run on Spring Boot 4 and
-Spring Security 7.
+### 🐝 HiveMind — File Sharing App
+A full-stack file-sharing platform with folder organization, automatic file versioning, and shareable download links.
+- **Backend:** Spring Boot 3 (Java 17), Spring Security + JWT (access/refresh token rotation), JPA/Hibernate (PostgreSQL/H2)
+- **Frontend:** React 18 + Vite
+- **Storage:** AWS S3 (SDK v2) — files never touch local disk
+- **Features:** nested folders, per-file version history, expiring public share links with download tracking
 
 ## Stack
 
